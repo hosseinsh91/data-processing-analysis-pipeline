@@ -33,19 +33,7 @@ It contains:
 - **Programming Language**: Python  
 - **Libraries**: Pandas, NumPy, TensorFlow, Scikit-Learn, Matplotlib, Seaborn, Lime, SHAP, Bokeh
 
-## 📂 Project Structure
-```
-📦 human-activity-recognition
- ┣ 📂 data/                     # Raw and processed datasets
- ┣ 📂 notebooks/                # Jupyter/Colab notebooks for analysis
- ┣ 📂 scripts/                  # Python scripts for automation
- ┣ 📂 models/                   # Trained machine learning models
- ┣ 📂 visualizations/           # Plots, graphs, and insights
- ┣ 📜 README.md                 # Project overview and setup instructions
- ┣ 📜 requirements.txt          # Dependencies and package installations
- ┣ 📜 .gitignore                # Files to be ignored in the repository
- ┗ 📜 LICENSE                   # Open-source or custom license
-```
+
 
 ## 🏗️ Installation & Setup
 1. **Clone the Repository**
