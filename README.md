@@ -1,26 +1,3 @@
-### **📜 `requirements.txt`**
-This file contains all necessary dependencies to run your project.
-
-```txt
-pandas
-numpy
-tensorflow
-scikit-learn
-matplotlib
-seaborn
-bokeh
-lime
-shap
-requests
-zipfile
-```
-
----
-
-### **📘 `README.md`**
-Here’s an improved **README.md** with better structure and documentation.
-
-```markdown
 # 📊 Human Activity Recognition - Data Processing & Analysis Pipeline
 
 ## 📌 Overview
