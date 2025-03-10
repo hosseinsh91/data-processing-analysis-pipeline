@@ -1,3 +1,26 @@
+### **📜 `requirements.txt`**
+This file contains all necessary dependencies to run your project.
+
+```txt
+pandas
+numpy
+tensorflow
+scikit-learn
+matplotlib
+seaborn
+bokeh
+lime
+shap
+requests
+zipfile
+```
+
+---
+
+### **📘 `README.md`**
+Here’s an improved **README.md** with better structure and documentation.
+
+```markdown
 # 📊 Human Activity Recognition - Data Processing & Analysis Pipeline
 
 ## 📌 Overview
@@ -32,3 +55,62 @@ It contains:
 ## 🛠️ Tech Stack
 - **Programming Language**: Python  
 - **Libraries**: Pandas, NumPy, TensorFlow, Scikit-Learn, Matplotlib, Seaborn, Lime, SHAP, Bokeh
+
+## 📂 Project Structure
+```
+📦 human-activity-recognition
+ ┣ 📂 data/                     # Raw and processed datasets
+ ┣ 📂 notebooks/                # Jupyter/Colab notebooks for analysis
+ ┣ 📂 scripts/                  # Python scripts for automation
+ ┣ 📂 models/                   # Trained machine learning models
+ ┣ 📂 visualizations/           # Plots, graphs, and insights
+ ┣ 📜 README.md                 # Project overview and setup instructions
+ ┣ 📜 requirements.txt          # Dependencies and package installations
+ ┣ 📜 .gitignore                # Files to be ignored in the repository
+ ┗ 📜 LICENSE                   # Open-source or custom license
+```
+
+## 🏗️ Installation & Setup
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/human-activity-recognition.git
+   cd human-activity-recognition
+   ```
+2. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Download the Dataset**
+   - Access the dataset from [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones).
+   - Extract the contents into the `data/` directory.
+
+4. **Run Jupyter Notebook**
+   ```bash
+   jupyter notebook
+   ```
+
+## 📊 Model Training & Evaluation
+- Open the **Jupyter Notebook** in the `notebooks/` folder.
+- Execute cells to process data, train models, and evaluate performance.
+- **Save trained models**:
+  ```python
+  model.save("models/activity_recognition_model.h5")
+  ```
+- **Export predictions**:
+  ```python
+  predictions.to_csv("data/predictions.csv", index=False)
+  ```
+
+## 🔍 Results & Visualizations
+The project provides:
+- **Confusion Matrices & Classification Reports**
+- **ROC Curves & Precision-Recall Metrics**
+- **LIME & SHAP Interpretability Visualizations**
+
+## 🤝 Contributions
+Contributions are welcome! Please fork the repository, create a feature branch, and submit a pull request.
+
+## 📜 License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+
