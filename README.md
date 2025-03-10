@@ -1,17 +1,34 @@
-# Data Processing & Analysis Pipeline 🚀
+# 📊 Human Activity Recognition - Data Processing & Analysis Pipeline
 
 ## 📌 Overview
-This project implements a robust **data processing and analysis pipeline** for extracting, cleaning, and analyzing large datasets. It integrates **machine learning models** for predictive insights and visualization tools to enhance data interpretation.
+This project implements a **data processing and analysis pipeline** for the [Human Activity Recognition Using Smartphones Dataset](https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones). It covers:
+- **Data extraction, cleaning, and transformation**
+- **Feature selection & dimensionality reduction**
+- **Machine learning & deep learning model training**
+- **Model evaluation & interpretability**
+- **Data visualization & result reporting**
 
-## 🔍 Features
-- **Data Extraction & Cleaning** – Handling raw datasets efficiently.
-- **Feature Engineering** – Selecting and transforming data for analysis.
-- **Machine Learning Integration** – Training models for predictions.
-- **Visualization Tools** – Generating graphs and insights.
-- **Automation** – Ensuring seamless real-time data updates.
+## 📂 Dataset
+The dataset consists of sensor readings from smartphones while users perform six different activities:
+1. WALKING
+2. WALKING_UPSTAIRS
+3. WALKING_DOWNSTAIRS
+4. SITTING
+5. STANDING
+6. LAYING
+
+It contains:
+- **Triaxial acceleration and angular velocity** from smartphone sensors
+- **561 feature variables** extracted from raw sensor data
+- **Train/test labels** for activity recognition
+
+## 🚀 Features
+- **Data Preprocessing**: Standardization, normalization, feature extraction.
+- **Feature Selection**: Uses PCA and RFECV for dimensionality reduction.
+- **Model Training**: Implements SVM and Neural Networks.
+- **Evaluation Metrics**: Classification reports, confusion matrices, ROC curves.
+- **Visualization**: Plots activity trends and model performance.
 
 ## 🛠️ Tech Stack
-- **Programming Language:** Python  
-- **Libraries & Frameworks:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn  
-- **Tools:** Jupyter Notebook / Google Colab  
-
+- **Programming Language**: Python  
+- **Libraries**: Pandas, NumPy, TensorFlow, Scikit-Learn, Matplotlib, Seaborn, Lime, SHAP, Bokeh
