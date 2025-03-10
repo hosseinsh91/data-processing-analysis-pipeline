@@ -33,39 +33,6 @@ It contains:
 - **Programming Language**: Python  
 - **Libraries**: Pandas, NumPy, TensorFlow, Scikit-Learn, Matplotlib, Seaborn, Lime, SHAP, Bokeh
 
-
-
-## 🏗️ Installation & Setup
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/human-activity-recognition.git
-   cd human-activity-recognition
-   ```
-2. **Install Dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Download the Dataset**
-   - Access the dataset from [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones).
-   - Extract the contents into the `data/` directory.
-
-4. **Run Jupyter Notebook**
-   ```bash
-   jupyter notebook
-   ```
-
-## 📊 Model Training & Evaluation
-- Open the **Jupyter Notebook** in the `notebooks/` folder.
-- Execute cells to process data, train models, and evaluate performance.
-- **Save trained models**:
-  ```python
-  model.save("models/activity_recognition_model.h5")
-  ```
-- **Export predictions**:
-  ```python
-  predictions.to_csv("data/predictions.csv", index=False)
-  ```
-
 ## 🔍 Results & Visualizations
 The project provides:
 - **Confusion Matrices & Classification Reports**
